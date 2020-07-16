@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5f3fe36-09b7-40d5-b01c-506c24a1024e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1elOLW8aQrCOJT12xjQT6Rpjyoc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager" selected="JUnit.DeckTest">
+    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardGameLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardGameLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DeckTest" />
+        <item itemvalue="JUnit.CardTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5f3fe36-09b7-40d5-b01c-506c24a1024e" name="Default Changelist" comment="" />
+      <created>1594892656687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594892656687</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="626" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1594894336430">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="626" y="272" key="#com.intellij.ide.util.MemberChooser/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594894336430" />
+    <state x="598" y="386" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1594901562691">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="598" y="386" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594901562691" />
+    <state width="1351" height="240" key="GridCell.Tab.0.bottom" timestamp="1594910583888">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="240" key="GridCell.Tab.0.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583888" />
+    <state width="1351" height="240" key="GridCell.Tab.0.center" timestamp="1594910583887">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="240" key="GridCell.Tab.0.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583887" />
+    <state width="1351" height="240" key="GridCell.Tab.0.left" timestamp="1594910583887">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="240" key="GridCell.Tab.0.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583887" />
+    <state width="1351" height="240" key="GridCell.Tab.0.right" timestamp="1594910583888">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="240" key="GridCell.Tab.0.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583888" />
+    <state width="1351" height="297" key="GridCell.Tab.1.bottom" timestamp="1594905544559">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="297" key="GridCell.Tab.1.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544559" />
+    <state width="1351" height="297" key="GridCell.Tab.1.center" timestamp="1594905544557">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="297" key="GridCell.Tab.1.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544557" />
+    <state width="1351" height="297" key="GridCell.Tab.1.left" timestamp="1594905544556">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="297" key="GridCell.Tab.1.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544556" />
+    <state width="1351" height="297" key="GridCell.Tab.1.right" timestamp="1594905544559">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1351" height="297" key="GridCell.Tab.1.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544559" />
+  </component>
+</project>
