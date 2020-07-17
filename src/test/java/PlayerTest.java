@@ -11,6 +11,7 @@ public class PlayerTest {
     @Before
     public void before(){
         player = new Player("Bobby");
+        card = new Card(SuitType.CLUBS, RankType.EIGHT);
     }
 
     @Test
@@ -25,9 +26,16 @@ public class PlayerTest {
 
     @Test
     public void playerDealtCard(){
-        player.addDealtCard(card);
+        player.takeCard(card);
         assertEquals(1, player.handSize());
     }
+
+    @Test
+    public void playerHandTotal(){
+        player.takeCard(card);
+        assertEquals(8, player.handTotal());
+    }
+
 
 
 }

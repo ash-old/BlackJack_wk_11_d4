@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5f3fe36-09b7-40d5-b01c-506c24a1024e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dealer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DealerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PersonTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1elOLW8aQrCOJT12xjQT6Rpjyoc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,21 +54,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
-    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GameTest.gameCanCheckWinner">
+    <configuration name="DealerTest.dealerTakeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cardGameLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CardTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DealerTest" />
+      <option name="METHOD_NAME" value="dealerTakeCard" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealerTest.dealerTotalHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cardGameLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="DealerTest" />
+      <option name="METHOD_NAME" value="dealerTotalHand" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,21 +84,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.gameCanCheckDraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cardGameLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="gameCanCheckDraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.gameCanCheckWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cardGameLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="gameCanCheckWinner" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.gameCanCheckWinner" />
         <item itemvalue="JUnit.GameTest" />
-        <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.DeckTest" />
-        <item itemvalue="JUnit.CardTest" />
+        <item itemvalue="JUnit.GameTest.gameCanCheckDraw" />
+        <item itemvalue="JUnit.DealerTest.dealerTotalHand" />
+        <item itemvalue="JUnit.DealerTest.dealerTakeCard" />
       </list>
     </recent_temporary>
   </component>
@@ -105,50 +128,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="626" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1594927445627">
+    <state x="626" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1594989115048">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state x="626" y="272" key="#com.intellij.ide.util.MemberChooser/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594912043603" />
+    <state x="626" y="272" key="#com.intellij.ide.util.MemberChooser/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594989115048" />
     <state x="626" y="272" key="#com.intellij.ide.util.MemberChooser/0.23.1680.980@0.23.1680.980" timestamp="1594927445627" />
     <state x="598" y="386" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1594901562691">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
     <state x="598" y="386" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594901562691" />
-    <state width="1351" height="240" key="GridCell.Tab.0.bottom" timestamp="1594929096084">
+    <state width="1351" height="240" key="GridCell.Tab.0.bottom" timestamp="1594999872430">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="240" key="GridCell.Tab.0.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583888" />
+    <state width="1351" height="240" key="GridCell.Tab.0.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594999872430" />
     <state width="1351" height="240" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1594929096084" />
-    <state width="1351" height="240" key="GridCell.Tab.0.center" timestamp="1594929096078">
+    <state width="1351" height="240" key="GridCell.Tab.0.center" timestamp="1594999872429">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="240" key="GridCell.Tab.0.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583887" />
+    <state width="1351" height="240" key="GridCell.Tab.0.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594999872429" />
     <state width="1351" height="240" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1594929096078" />
-    <state width="1351" height="240" key="GridCell.Tab.0.left" timestamp="1594929096077">
+    <state width="1351" height="240" key="GridCell.Tab.0.left" timestamp="1594999872428">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="240" key="GridCell.Tab.0.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583887" />
+    <state width="1351" height="240" key="GridCell.Tab.0.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594999872428" />
     <state width="1351" height="240" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1594929096077" />
-    <state width="1351" height="240" key="GridCell.Tab.0.right" timestamp="1594929096081">
+    <state width="1351" height="240" key="GridCell.Tab.0.right" timestamp="1594999872429">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="240" key="GridCell.Tab.0.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594910583888" />
+    <state width="1351" height="240" key="GridCell.Tab.0.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594999872429" />
     <state width="1351" height="240" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1594929096081" />
-    <state width="1351" height="297" key="GridCell.Tab.1.bottom" timestamp="1594905544559">
+    <state width="1351" height="297" key="GridCell.Tab.1.bottom" timestamp="1594997888912">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="297" key="GridCell.Tab.1.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544559" />
-    <state width="1351" height="297" key="GridCell.Tab.1.center" timestamp="1594905544557">
+    <state width="1351" height="297" key="GridCell.Tab.1.bottom/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594997888912" />
+    <state width="1351" height="297" key="GridCell.Tab.1.center" timestamp="1594997888911">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="297" key="GridCell.Tab.1.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544557" />
-    <state width="1351" height="297" key="GridCell.Tab.1.left" timestamp="1594905544556">
+    <state width="1351" height="297" key="GridCell.Tab.1.center/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594997888911" />
+    <state width="1351" height="297" key="GridCell.Tab.1.left" timestamp="1594997888911">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="297" key="GridCell.Tab.1.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544556" />
-    <state width="1351" height="297" key="GridCell.Tab.1.right" timestamp="1594905544559">
+    <state width="1351" height="297" key="GridCell.Tab.1.left/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594997888911" />
+    <state width="1351" height="297" key="GridCell.Tab.1.right" timestamp="1594997888911">
       <screen x="0" y="23" width="1680" height="980" />
     </state>
-    <state width="1351" height="297" key="GridCell.Tab.1.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594905544559" />
+    <state width="1351" height="297" key="GridCell.Tab.1.right/-108.-1057.1920.1057/0.23.1680.980@0.23.1680.980" timestamp="1594997888911" />
   </component>
 </project>

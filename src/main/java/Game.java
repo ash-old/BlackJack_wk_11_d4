@@ -4,11 +4,13 @@ public class Game {
 
     private Deck deck;
     private ArrayList<Player> players;
+    private Dealer dealer;
 
-    public Game(Deck deck) {
+
+    public Game(Deck deck, Dealer dealer) {
         this.deck = deck;
         this.players = new ArrayList<Player>();
-
+        this.dealer = dealer;
     }
 
 
@@ -21,4 +23,22 @@ public class Game {
     }
 
 
+    public boolean checkDraw() {
+       for(Player player : this.players){
+           if(player.handTotal() == this.dealer.handTotal()){
+               return true;
+           }
+       }
+       return false;
+    }
+
+
+    public Object checkWinner() {
+        for(Player player : this.players){
+            if(player.handTotal() > this.dealer.handTotal()){
+                return player;
+            }
+        }
+        return dealer;
+    }
 }

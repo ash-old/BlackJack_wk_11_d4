@@ -20,6 +20,10 @@ public class Card {
         return rank;
     }
 
+    public int getValue(){
+        return this.rank.getValue();
+    }
+
     public ArrayList<Card> getCards(){
         return cards;
     }
