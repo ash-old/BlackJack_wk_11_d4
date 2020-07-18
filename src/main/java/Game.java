@@ -41,4 +41,30 @@ public class Game {
         }
         return dealer;
     }
+
+    public void start() {
+        deck.populateDeck();
+        for(Player player : this.players){
+            Card card1 = deck.dealOne();
+            player.takeCard(card1);
+            Card card2 = deck.dealOne();
+            player.takeCard(card2);
+            Card card3 = deck.dealOne();
+            dealer.takeCard(card3);
+            Card card4 = deck.dealOne();
+            dealer.takeCard(card4);
+            int playerTotal = player.handTotal();
+            String outputTotal = String.format("Your card total is %s ", playerTotal);
+            System.out.println(outputTotal);
+        }
+    }
+
+    public void twist() {
+        for(Player player : this.players) {
+            Card card1 = deck.dealOne();
+            player.takeCard(card1);
+
+        }
+    }
+
 }

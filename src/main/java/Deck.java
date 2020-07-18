@@ -35,15 +35,21 @@ public class Deck {
                 cards.add(card);
             }
         }
-    }
-
-    public void shuffleDeck(){
         Collections.shuffle(cards);
     }
 
-    public Card removeCard() {
-        this.cards.remove(0);
-        return null;
+//    public void shuffleDeck(){
+//        Collections.shuffle(cards);
+//    }
+
+    public Card dealOne() {
+        return this.cards.remove(0);
+
     }
 
+    public Card dealTwo() {
+        this.cards.remove(0);
+        this.cards.remove(1);
+        return null;
+    }
 }

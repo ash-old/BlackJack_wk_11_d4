@@ -38,7 +38,7 @@ public class DeckTest {
     public void canRemoveCard(){
         deck.addCard(card1);
         deck.addCard(card2);
-        deck.removeCard();
+        deck.dealOne();
         assertEquals(1, deck.deckSize());
     }
 
