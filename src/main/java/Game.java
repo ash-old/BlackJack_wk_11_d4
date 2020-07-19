@@ -36,10 +36,12 @@ public class Game {
     public Object checkWinner() {
         for(Player player : this.players){
             if(player.handTotal() > this.dealer.handTotal()){
-                return player;
+                 String playerName = player.getName();
+                 return playerName;
             }
         }
-        return dealer;
+        String dealerName = dealer.getName();
+        return dealerName;
     }
 
     public void start() {
@@ -54,7 +56,7 @@ public class Game {
             Card card4 = deck.dealOne();
             dealer.takeCard(card4);
             int playerTotal = player.handTotal();
-            String outputTotal = String.format("Your card total is %s ", playerTotal);
+            String outputTotal = String.format("You are dealt 2 cards. Your total is %s ", playerTotal);
             System.out.println(outputTotal);
         }
     }

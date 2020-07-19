@@ -37,6 +37,8 @@ public class Runner {
 
         }
 
+
+
         boolean dealerStick = false;
         boolean playerStick = false;
 
@@ -47,8 +49,8 @@ public class Runner {
             if(playerResponse.equals("twist")) {
                 game.twist();
                 int playerTotal = player.handTotal();
-               String twistOutput = String.format("Your new card total is %s ", playerTotal);
-               System.out.println(twistOutput);
+                String twistOutput = String.format("Your new card total is %s ", playerTotal);
+                System.out.println(twistOutput);
             }
             // player bust
             if(player.handTotal() > 21){
@@ -58,7 +60,7 @@ public class Runner {
             // player stick
             if(playerResponse.equals("stick")){
                 playerStick = true;
-//                break;
+
             }
             // dealer takes card
             if(playerStick == true && dealer.handTotal() <= 16) {
@@ -66,20 +68,25 @@ public class Runner {
                 dealer.takeCard(card1);
                 System.out.println("Dealer takes card");
             }
+
             //dealer sticks
-            if(playerStick == true && dealer.handTotal() > 16){
+            if(playerStick == true && dealer.handTotal() > 16) {
                 System.out.println(dealer.handTotal());
                 System.out.println("Dealer sticks");
                 dealerStick = true;
-                if(game.checkDraw()){
-                    System.out.println("Game is a draw!");
-                    } else{
-//                    Object winner = game.checkWinner();
-//                    String winnerName = winner
-                }
-                    System.out.println("The Winner is " + game.checkWinner());
-                    System.out.println("Player card value " + player.handTotal() + " The Dealer card value is " + dealer.handTotal());
+                game.checkWinner();
             }
+
+            // draw
+            if(game.checkDraw()){
+                System.out.println("Game is a draw!");
+            }else{
+///                   Object winner = game.checkWinner();
+//                    String winnerName = winner
+            }
+           System.out.println("The Winner is " + game.checkWinner());
+          System.out.println("Player card value " + player.handTotal() + " The Dealer card value is " + dealer.handTotal());
+
 
             // dealer bust
             if(dealer.handTotal() > 21){
