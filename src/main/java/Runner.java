@@ -74,18 +74,16 @@ public class Runner {
                 System.out.println(dealer.handTotal());
                 System.out.println("Dealer sticks");
                 dealerStick = true;
-                game.checkWinner();
+//                game.checkWinner();
             }
 
             // draw
             if(game.checkDraw()){
                 System.out.println("Game is a draw!");
-            }else{
-///                   Object winner = game.checkWinner();
-//                    String winnerName = winner
             }
+
            System.out.println("The Winner is " + game.checkWinner());
-          System.out.println("Player card value " + player.handTotal() + " The Dealer card value is " + dealer.handTotal());
+           System.out.println("Player card value " + player.handTotal() + " The Dealer card value is " + dealer.handTotal());
 
 
             // dealer bust
